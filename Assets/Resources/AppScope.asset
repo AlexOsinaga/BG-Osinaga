@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57117f507708c6f41b676d2632709455, type: 3}
+  m_Name: AppScope
+  m_EditorClassIdentifier: 
+  mainMenuPrefab: {fileID: 996307737638874451, guid: 1e98b51cf93ebb549b3ecc4e4459f53a, type: 3}
