@@ -1,3 +1,8 @@
+//**Osinaga Yujra Gaabriel Alex**
+/// <summary>
+////When the assasin is near the door if he presses E he shall enter the store
+/// </summary>
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -39,15 +44,14 @@ public class StoreTrigger : MonoBehaviour
             // Check for "E" key press using the new Input System
             if (Keyboard.current.eKey.wasPressedThisFrame)
             {
-                //if (uiMenuPrefab != null)
-                if (uiMenu == null) // Check if menu doesn't exist
-                {
+                //if (uiMenu == null) // Check if menu doesn't exist(already halndled but i'll keep it to test)
+                //{
                     uiMenu = Instantiate(uiMenuPrefab, transform.position, Quaternion.identity);
                     uiMenu.SetActive(true);
                     // Activate close camera
                     closeCamera.SetActive(true);
                     FindObjectOfType<AssassinMovement>().isOnMenu = true; 
-                }
+                //}
             }
             if (Keyboard.current.escapeKey.wasPressedThisFrame && uiMenu != null)
             {

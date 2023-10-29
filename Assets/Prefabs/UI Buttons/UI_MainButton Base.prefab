@@ -93,7 +93,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.05
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -240,6 +240,7 @@ GameObject:
   - component: {fileID: 7932068528590570241}
   - component: {fileID: 1935400013345499662}
   - component: {fileID: 1763287143357589927}
+  - component: {fileID: 8508271047312051117}
   m_Layer: 5
   m_Name: UI_MainButton Base
   m_TagString: Untagged
@@ -366,3 +367,16 @@ MonoBehaviour:
   m_EffectColor: {r: 0.56078434, g: 0.28235295, b: 0.14117648, a: 1}
   m_EffectDistance: {x: 15, y: 15}
   m_UseGraphicAlpha: 1
+--- !u!114 &8508271047312051117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8767828372536961208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a79362856eaae44b2ab7872d57d3d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: f397f9f662b1a2f42bae557a43257108, type: 3}
