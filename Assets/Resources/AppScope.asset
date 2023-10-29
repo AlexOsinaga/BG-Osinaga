@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: AppScope
   m_EditorClassIdentifier: 
   mainMenuPrefab: {fileID: 996307737638874451, guid: 1e98b51cf93ebb549b3ecc4e4459f53a, type: 3}
+  optionsMenuPrefab: {fileID: 996307737638874451, guid: 9f3c17784dac9c148b9bc8f42544c8b7, type: 3}

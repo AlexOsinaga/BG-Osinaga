@@ -21,7 +21,17 @@ MonoBehaviour:
     productImage: {fileID: 21300000, guid: 124013dbba7f284489ac16156c930131, type: 3}
     isEquipped: 1
   - productName: Hood1
-    price: 20
-    quantity: 1
+    price: 30
+    quantity: 3
     productImage: {fileID: 21300000, guid: 3d9056df586b6024fbc5b9fee2433eef, type: 3}
+    isEquipped: 0
+  - productName: Hood1
+    price: 30
+    quantity: 0
+    productImage: {fileID: 21300000, guid: 90458a12b047bb84ba77cb7ea81ba457, type: 3}
+    isEquipped: 0
+  - productName: Hood1
+    price: 30
+    quantity: 0
+    productImage: {fileID: 21300000, guid: 250530d3e9754ed418009e3d539275b3, type: 3}
     isEquipped: 0

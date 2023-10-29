@@ -28,5 +28,15 @@ MonoBehaviour:
   - productName: Mask1
     price: 12
     quantity: 5
+    productImage: {fileID: 21300000, guid: 41375989850254546b76c3a6813e6d19, type: 3}
+    isEquipped: 1
+  - productName: Mask1
+    price: 12
+    quantity: 5
     productImage: {fileID: 21300000, guid: 7db7af78e8f9c45418a407bdd7958560, type: 3}
+    isEquipped: 1
+  - productName: Mask1
+    price: 12
+    quantity: 5
+    productImage: {fileID: 21300000, guid: 518ab34707033904cb1d99dbfcc9f4bb, type: 3}
     isEquipped: 1
