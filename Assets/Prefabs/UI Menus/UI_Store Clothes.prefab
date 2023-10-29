@@ -79,6 +79,18 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1114842367918151809, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114842367918151809, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114842367918151809, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7725491
+      objectReference: {fileID: 0}
     - target: {fileID: 1166290120448794169, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -267,6 +279,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -450
       objectReference: {fileID: 0}
+    - target: {fileID: 2880389305897324432, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880389305897324432, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880389305897324432, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7725491
+      objectReference: {fileID: 0}
     - target: {fileID: 3036624146987030967, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -339,6 +363,10 @@ PrefabInstance:
       propertyPath: m_VerticalScrollbarVisibility
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3477053714953561129, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_Name
+      value: UI_MainButton SellButton
+      objectReference: {fileID: 0}
     - target: {fileID: 3681317146864427077, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -365,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3830280444240911326, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_text
-      value: SELL
+      value: CLOSE
       objectReference: {fileID: 0}
     - target: {fileID: 3830280444240911326, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_fontSize
@@ -447,6 +475,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4528634480571097372, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528634480571097372, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528634480571097372, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528634480571097372, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4706573142489918320, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_Name
       value: GoldBalance Text (TMP)
@@ -479,13 +523,33 @@ PrefabInstance:
       propertyPath: m_CellSize.y
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 5213108666966366280, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_fontSize
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5213108666966366280, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 105870ce7163e68418d7b95908a39739, type: 2}
+    - target: {fileID: 5213108666966366280, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5213108666966366280, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5213108666966366280, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -161642678955632219, guid: 105870ce7163e68418d7b95908a39739, type: 2}
     - target: {fileID: 5394823407867644315, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_Name
       value: Menu Inventory
       objectReference: {fileID: 0}
     - target: {fileID: 5566366251188676543, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_Name
-      value: UI_MainButton SellButton
+      value: UI_MainButton CloseButton
       objectReference: {fileID: 0}
     - target: {fileID: 5913232936705993210, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
       propertyPath: m_SizeDelta.x
@@ -814,17 +878,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d1b61f8d01dc274592e7bf09a9c9322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 11400000, guid: f7f2310c3bfed46478a249085f3ebac9, type: 2}
-  wallet: {fileID: 8810929371729575334}
-  categoryButtonPrefab: {fileID: 1329026334857412732, guid: 71da7dc54c5428a4b869357d9f2498e2, type: 3}
-  categoryButtonParent: {fileID: 4240380275015677445}
-  productButtonPrefab: {fileID: 1329026334857412732, guid: e3520237e990d124c9725ec7c3b25b6b, type: 3}
-  productButtonParent: {fileID: 5139130787066601202}
-  categoryNameText: {fileID: 6319332845563812719}
-  goldBalanceText: {fileID: 5862652816487917592}
-  buyButton: {fileID: 4101897596149875354}
-  sellButton: {fileID: 7859369283004093981}
-  playerPrefab: {fileID: 1908744750295508134, guid: bfa107e3614e36b45acc34259b9692ce, type: 3}
+  _inventory: {fileID: 11400000, guid: f7f2310c3bfed46478a249085f3ebac9, type: 2}
+  _wallet: {fileID: 8810929371729575334}
+  _categoryButtonPrefab: {fileID: 1329026334857412732, guid: 71da7dc54c5428a4b869357d9f2498e2, type: 3}
+  _categoryButtonParent: {fileID: 4240380275015677445}
+  _productButtonPrefab: {fileID: 1329026334857412732, guid: e3520237e990d124c9725ec7c3b25b6b, type: 3}
+  _productButtonParent: {fileID: 5139130787066601202}
+  _categoryNameText: {fileID: 6319332845563812719}
+  _goldBalanceText: {fileID: 5862652816487917592}
+  _buyButton: {fileID: 4101897596149875354}
+  _sellButton: {fileID: 1183703206837081483}
+  _closeButton: {fileID: 7859369283004093981}
+  _uiMenu: {fileID: 8558592428067930463}
 --- !u!1 &751139537964824041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5275771483731511037, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
@@ -858,6 +923,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingGold: 130
+--- !u!114 &1183703206837081483 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5996121325990897311, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+  m_PrefabInstance: {fileID: 4853714195681063700}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &4101897596149875354 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8914600008030744974, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
@@ -932,3 +1008,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &8558592428067930463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3863491649590096459, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+  m_PrefabInstance: {fileID: 4853714195681063700}
+  m_PrefabAsset: {fileID: 0}

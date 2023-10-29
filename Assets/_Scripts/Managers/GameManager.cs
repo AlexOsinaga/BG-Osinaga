@@ -6,6 +6,7 @@ using UnityEngine.UI;
 /// <summary>
 ////For larger and more complex games, use state machines. But this will serve just fine for this game.
 /// </summary>
+
 public class GameManager : StaticInstance<GameManager> {
     public static event Action<GameState> OnBeforeStateChanged;
     public static event Action<GameState> OnAfterStateChanged;
@@ -14,6 +15,7 @@ public class GameManager : StaticInstance<GameManager> {
 
 
     public AppScope appScope;
+    public AudioClip mainMusic;
 
     void Awake() {
         appScope = Resources.Load<AppScope>("AppScope");
@@ -31,16 +33,8 @@ public class GameManager : StaticInstance<GameManager> {
             case GameState.Starting:
                 HandleStarting();
                 break;
-            case GameState.SpawningAssasin:
+            case GameState.SpawningAssassin:
                 HandleSpawningAssasin();
-                break;
-            case GameState.SpawningEnemies:
-                HandleSpawningEnemies();
-                break;
-            case GameState.HeroTurn:
-                HandleHeroTurn();
-                break;
-            case GameState.EnemyTurn:
                 break;
             case GameState.Win:
                 break;
@@ -62,7 +56,10 @@ public class GameManager : StaticInstance<GameManager> {
         //MainMenuState.Instance.SpawnMainMenu(appScope);
         Instantiate(appScope.mainMenuPrefab);
         AddPlayButtonListener();
-        ///ChangeState(GameState.SpawningHeroes);
+        AudioSystem.Instance.PlayMusic(mainMusic);
+
+
+        ///ChangeState(GameState.SpawningAssassin);
     }
 
     private void HandleSpawningAssasin() {
@@ -70,28 +67,14 @@ public class GameManager : StaticInstance<GameManager> {
         
         //ChangeState(GameState.SpawningEnemies);
     }
-
-    private void HandleSpawningEnemies() {
-        
-        // Spawn enemies
-        
-        ChangeState(GameState.HeroTurn);
-    }
-
-    private void HandleHeroTurn() {
-        // this could show the turn menu, highlight available units etc
-        
-        // once they've all finished, change the state. This could
-        // be monitored in the unit manager or the units themselves.
-    }
-
+  
     private void HandlePlayButtonClick() {
 
         // Load game scene
         SceneManager.LoadScene("2. Game");
         
-        // Change state to spawn heroes
-        ChangeState(GameState.SpawningAssasin);
+        // Change state to spawn the assasin
+        ChangeState(GameState.SpawningAssassin);
 
     }
     public void AddPlayButtonListener() {
@@ -112,11 +95,7 @@ public class GameManager : StaticInstance<GameManager> {
 [Serializable]
 public enum GameState {
     Starting = 0,
-    SpawningAssasin = 1,
-    //SpawningHeroes = 1,
-    SpawningEnemies = 2,
-    HeroTurn = 3,
-    EnemyTurn = 4,
+    SpawningAssassin = 1,
     Win = 5,
     Lose = 6,
 }

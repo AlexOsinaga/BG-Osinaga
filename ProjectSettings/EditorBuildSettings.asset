@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3. ClothingStore.unity
     guid: 06904e20f7519a04a81b088ca24adf97
+  - enabled: 1
+    path: Assets/Scenes/4. WeaponsStore.unity
+    guid: eeb8c8756c679244c8fdb0bffe30aabd
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0cc4d198eb8e188499e3505c8ecdc10a, type: 2}
