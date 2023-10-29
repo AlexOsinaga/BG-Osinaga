@@ -1208,7 +1208,7 @@ GameObject:
   - component: {fileID: 1905164756670523308}
   - component: {fileID: 1769800709639126452}
   m_Layer: 6
-  m_Name: Rogue_hood_01
+  m_Name: Hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1270,15 +1270,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 10.24, y: 10.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1908744749876492296
@@ -1435,8 +1435,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08244626b07f19a43b07918b01f727cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  categorySpriteRenderers:
-  - {fileID: 1769800709639126452}
+  inventory: {fileID: 11400000, guid: f7f2310c3bfed46478a249085f3ebac9, type: 2}
+  hoodRenderer: {fileID: 1769800709639126452}
+  maskRenderer: {fileID: 1769800711519758874}
+  shirtRenderer: {fileID: 1769800712783340288}
+  pantsRenderer: {fileID: 1769800712035691246}
 --- !u!1 &1908744750338130036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,7 +1485,7 @@ GameObject:
   - component: {fileID: 1905164759415905316}
   - component: {fileID: 1769800712783340288}
   m_Layer: 6
-  m_Name: Rogue_torso_01
+  m_Name: Shirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1544,7 +1547,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: 21300000, guid: 215dd6c48c732d744aecd29e7fecbbfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 124013dbba7f284489ac16156c930131, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1850,7 +1853,7 @@ GameObject:
   - component: {fileID: 1905164757229313144}
   - component: {fileID: 1769800711519758874}
   m_Layer: 6
-  m_Name: Rogue_face_01
+  m_Name: Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1912,7 +1915,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 11
-  m_Sprite: {fileID: 21300000, guid: 518ab34707033904cb1d99dbfcc9f4bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7db7af78e8f9c45418a407bdd7958560, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1934,7 +1937,7 @@ GameObject:
   - component: {fileID: 1905164758007419762}
   - component: {fileID: 1769800712035691246}
   m_Layer: 6
-  m_Name: Rogue_pelvis_01
+  m_Name: Pants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1996,7 +1999,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: 21300000, guid: c376d5b80d02ffe4ba89fd03d60ec471, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b1babcb6ce4ee78478abc5076a6d1b8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
