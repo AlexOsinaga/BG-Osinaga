@@ -9,6 +9,7 @@ using UnityEngine.InputSystem;
 public class StoreTrigger : MonoBehaviour
 {
     public GameObject pressEBubble; // Reference to the "Press E" bubble GameObject
+    public GameObject arrowGuide;
     public GameObject uiMenuPrefab; // The UI menu prefab
     public GameObject closeCamera; // Added reference
 
@@ -21,6 +22,7 @@ public class StoreTrigger : MonoBehaviour
         {
             canOpenUI = true;
             pressEBubble.SetActive(true); // Enable the "Press E" bubble from the scene
+            arrowGuide.SetActive(false);
         }
     }
 
@@ -30,6 +32,7 @@ public class StoreTrigger : MonoBehaviour
         {
             canOpenUI = false;
             pressEBubble.SetActive(false);
+            arrowGuide.SetActive(true);
             if (uiMenu != null)
             {
                 uiMenu.SetActive(false);
