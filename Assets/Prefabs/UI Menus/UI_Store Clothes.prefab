@@ -934,6 +934,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3051810393955832509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7566590782359085481, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+  m_PrefabInstance: {fileID: 4853714195681063700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7258023223494703163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3051810393955832509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19b7e2285c104f6ca47d583f3e5444f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectFactor: 0.5
+  m_Width: 0.25
+  m_Rotation: 135
+  m_Softness: 1
+  m_Brightness: 1
+  m_Gloss: 1
+  m_EffectArea: 0
+  m_Player:
+    play: 1
+    initialPlayDelay: 0
+    duration: 1
+    loop: 1
+    loopDelay: 0
+    updateMode: 0
 --- !u!114 &4101897596149875354 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8914600008030744974, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
@@ -997,6 +1028,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &6382842014676082292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2004017888320810336, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}
+  m_PrefabInstance: {fileID: 4853714195681063700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3743922239386114042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6382842014676082292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce76b7a490bd74f34a2f2752641aea24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectFactor: 0.5
+  m_Width: 0.5
+  m_Softness: 0.5
+  m_Color: {r: 0.5372549, g: 0.27058825, b: 0.121568635, a: 1}
+  m_ColorMode: 2
+  m_TransitionTexture: {fileID: 2800000, guid: 3e04c247fb2604af186173fce0bc62de, type: 3}
+  m_EffectArea: 0
+  m_KeepAspectRatio: 0
+  m_Player:
+    play: 1
+    initialPlayDelay: 0
+    duration: 2
+    loop: 0
+    loopDelay: 0
+    updateMode: 0
+  m_Reverse: 1
 --- !u!114 &7859369283004093981 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3335423363865928969, guid: 18436ec97f862cd4ab11671835b409e3, type: 3}

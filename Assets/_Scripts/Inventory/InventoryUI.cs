@@ -161,6 +161,7 @@ public class InventoryUI : MonoBehaviour
         else
         {
             // Not enough gold to buy the product. Display a message or take appropriate action.
+            Debug.Log("Not enough gold to buy the product " + product.productName + " you need " + product.price);
         }
     }
 
@@ -226,7 +227,7 @@ public class InventoryUI : MonoBehaviour
         else
         {
             // Handle the case where the product quantity is 0 and cannot be equipped.
-            // You can display a message or take appropriate action here.
+            Debug.Log("Not enough quantity on inventory of " + product.productName + " your quantity is " + product.quantity);
         }
     }
 
