@@ -19,12 +19,12 @@ MonoBehaviour:
     price: 20
     quantity: 8
     productImage: {fileID: 21300000, guid: 468244f274f38f64b85773c7888444b6, type: 3}
-    isEquipped: 1
+    isEquipped: 0
   - productName: Hood2
     price: 25
     quantity: 3
     productImage: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
-    isEquipped: 1
+    isEquipped: 0
   - productName: Hood3
     price: 25
     quantity: 5
@@ -32,11 +32,16 @@ MonoBehaviour:
     isEquipped: 0
   - productName: Hood4
     price: 25
-    quantity: 0
+    quantity: 5
     productImage: {fileID: 21300000, guid: dcb72940063c94f44abc2366768e713a, type: 3}
-    isEquipped: 0
+    isEquipped: 1
   - productName: Hood6
     price: 25
     quantity: 3
     productImage: {fileID: 21300000, guid: 20eb058aea3c3a744bb5d47a1610550a, type: 3}
+    isEquipped: 0
+  - productName: Hood6
+    price: 25
+    quantity: 2
+    productImage: {fileID: 21300000, guid: 04f6c40e52535b941b42e11550f9cb8c, type: 3}
     isEquipped: 0
